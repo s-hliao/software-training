@@ -1,0 +1,2 @@
+source;share/coordinate_transform/environment/ament_prefix_path.sh
+source;share/coordinate_transform/environment/path.sh

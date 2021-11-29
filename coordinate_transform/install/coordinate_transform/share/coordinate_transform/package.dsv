@@ -1,0 +1,11 @@
+source;share/coordinate_transform/hook/cmake_prefix_path.ps1
+source;share/coordinate_transform/hook/cmake_prefix_path.dsv
+source;share/coordinate_transform/hook/cmake_prefix_path.sh
+source;share/coordinate_transform/hook/ld_library_path_lib.ps1
+source;share/coordinate_transform/hook/ld_library_path_lib.dsv
+source;share/coordinate_transform/hook/ld_library_path_lib.sh
+source;share/coordinate_transform/local_setup.bash
+source;share/coordinate_transform/local_setup.dsv
+source;share/coordinate_transform/local_setup.ps1
+source;share/coordinate_transform/local_setup.sh
+source;share/coordinate_transform/local_setup.zsh

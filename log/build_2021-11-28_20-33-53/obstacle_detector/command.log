@@ -1,0 +1,2 @@
+Invoking command in '/home/henry/training_ws/src/software-training/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/build/obstacle_detector -- -j12 -l12
+Invoked command in '/home/henry/training_ws/src/software-training/build/obstacle_detector' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/build/obstacle_detector -- -j12 -l12

@@ -1,0 +1,35 @@
+[35m[1mScanning dependencies of target coordinate_transform_components[0m
+[ 50%] Built target coordinate_transform_node
+[ 75%] [32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o[0m
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:122:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_tag_array_msg[m[K’ does not name a type
+  122 |     [01;31m[Knew_tag_array_msg[m[K.header.stamp = tag_array_msg->header.stamp;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:124:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_tag_array_msg[m[K’ does not name a type
+  124 |     [01;31m[Knew_tag_array_msg[m[K.header.frame_id = "base_footprint";
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_tag_array_msg[m[K’ does not name a type
+  128 |     [01;31m[Knew_tag_array_msg[m[K.tags = new_tags;
+      |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:132:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktag_pub_[m[K’ does not name a type
+  132 |     [01;31m[Ktag_pub_[m[K->publish(new_tag_array_msg);
+      |     [01;31m[K^~~~~~~~[m[K
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:[m[K In member function ‘[01m[Kvoid coordinate_transform::CoordinateTransformComponent::DetectionCallback(stsl_interfaces::msg::TagArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:81:64:[m[K [01;31m[Kerror: [m[K‘[01m[KgetTransformationMatrixForOpticalFrame[m[K’ was not declared in this scope
+   81 |     Eigen::Matrix4d camera_optical_to_conventional_transform = [01;31m[KgetTransformationMatrixForOpticalFrame[m[K();
+      |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:103:8:[m[K [01;31m[Kerror: [m[K‘[01m[KquaternionMessageToTransformationMatrix[m[K’ was not declared in this scope
+  103 |        [01;31m[KquaternionMessageToTransformationMatrix[m[K(
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:110:8:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformationMatrixToQuaternionMessage[m[K’ was not declared in this scope
+  110 |        [01;31m[KtransformationMatrixToQuaternionMessage[m[K(tag_orientation);
+      |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:[m[K At global scope:
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:135:19:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[KgetTransformationMatrixForOpticalFrame[m[K’
+  135 |   Eigen::Matrix4d [01;31m[KgetTransformationMatrixForOpticalFrame[m[K()
+      |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:168:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+  168 | [01;31m[K}[m[K  // namespace coordinate_transform
+      | [01;31m[K^[m[K
+make[2]: *** [CMakeFiles/coordinate_transform_components.dir/build.make:63: CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/coordinate_transform_components.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

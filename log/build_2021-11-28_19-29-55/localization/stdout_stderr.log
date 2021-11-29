@@ -1,0 +1,11 @@
+[35m[1mScanning dependencies of target localization_component[0m
+[35m[1mScanning dependencies of target localization_node[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/localization_node.dir/rclcpp_components/node_main_localization_node.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/motion_model.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/random_helpers.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/aruco_sensor_model.cpp.o[0m
+[ 71%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o[0m
+[ 85%] [32m[1mLinking CXX executable localization_node[0m
+[ 85%] Built target localization_node
+[100%] [32m[1mLinking CXX shared library liblocalization_component.so[0m
+[100%] Built target localization_component

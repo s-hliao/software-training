@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target coordinate_transform_components[0m
+[ 50%] Built target coordinate_transform_node
+[ 75%] [32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o[0m

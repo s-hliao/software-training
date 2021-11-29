@@ -1,0 +1,3 @@
+[0.051s] Invoking command in '/home/henry/training_ws/src/software-training/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/build/localization -- -j12 -l12
+[0.136s] [ 28%] Built target localization_node
+[0.146s] [100%] Built target localization_component

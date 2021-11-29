@@ -1,0 +1,31 @@
+[0.013s] Invoking command in '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform -- -j12 -l12
+[0.053s] [35m[1mScanning dependencies of target coordinate_transform_components[0m
+[0.068s] [ 50%] Built target coordinate_transform_node
+[0.082s] [ 75%] [32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o[0m
+[2.012s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:[m[K In member function ‘[01m[Kvoid coordinate_transform::CoordinateTransformComponent::DetectionCallback(stsl_interfaces::msg::TagArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[2.012s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:93:8:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before ‘[01m[K}[m[K’ token
+[2.012s]    93 |       1
+[2.012s]       |        [01;31m[K^[m[K
+[2.012s]       |        [32m[K)[m[K
+[2.012s]    94 |      [32m[K}[m[K;
+[2.012s]       |      [32m[K~[m[K  
+[2.012s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:89:30:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K([m[K’
+[2.012s]    89 |      Eigen::Vector4d position[01;36m[K([m[K
+[2.013s]       |                              [01;36m[K^[m[K
+[2.013s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:94:6:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[K}[m[K’ token
+[2.013s]    94 |      [01;31m[K}[m[K;
+[2.013s]       |      [01;31m[K^[m[K
+[2.015s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:96:6:[m[K [01;31m[Kerror: [m[K‘[01m[Kposition[m[K’ was not declared in this scope
+[2.015s]    96 |      [01;31m[Kposition[m[K = camera_to_base_transform *
+[2.015s]       |      [01;31m[K^~~~~~~~[m[K
+[2.025s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:99:6:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_tag[m[K’ was not declared in this scope; did you mean ‘[01m[Knew_tags[m[K’?
+[2.025s]    99 |      [01;31m[Knew_tag[m[K.pose.position.x = position.x();
+[2.025s]       |      [01;31m[K^~~~~~~[m[K
+[2.025s]       |      [32m[Knew_tags[m[K
+[2.026s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:105:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ki[m[K’ was not declared in this scope
+[2.026s]   105 |       tag_array_msg->tags[[01;31m[Ki[m[K].pose.orientation);
+[2.026s]       |                           [01;31m[K^[m[K
+[4.634s] make[2]: *** [CMakeFiles/coordinate_transform_components.dir/build.make:63: CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o] Error 1
+[4.634s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/coordinate_transform_components.dir/all] Error 2
+[4.634s] make: *** [Makefile:141: all] Error 2
+[4.636s] Invoked command in '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform -- -j12 -l12

@@ -1,0 +1,30 @@
+[0.013s] Invoking command in '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform -- -j12 -l12
+[0.052s] [35m[1mScanning dependencies of target coordinate_transform_components[0m
+[0.066s] [ 50%] Built target coordinate_transform_node
+[0.081s] [ 75%] [32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o[0m
+[6.835s] [100%] [32m[1mLinking CXX shared library libcoordinate_transform_components.so[0m
+[7.082s] [100%] Built target coordinate_transform_components
+[7.091s] Invoked command in '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform -- -j12 -l12
+[7.128s] Invoking command in '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform
+[7.136s] -- Install configuration: ""
+[7.136s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node
+[7.137s] -- Set runtime path of "/home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node" to ""
+[7.137s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/libcoordinate_transform_components.so
+[7.141s] -- Set runtime path of "/home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/libcoordinate_transform_components.so" to ""
+[7.141s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/package_run_dependencies/coordinate_transform
+[7.141s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/parent_prefix_path/coordinate_transform
+[7.141s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.sh
+[7.141s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.dsv
+[7.141s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/path.sh
+[7.141s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/path.dsv
+[7.142s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.bash
+[7.142s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.sh
+[7.142s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.zsh
+[7.142s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.dsv
+[7.142s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/package.dsv
+[7.142s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/packages/coordinate_transform
+[7.142s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/rclcpp_components/coordinate_transform
+[7.142s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig.cmake
+[7.143s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig-version.cmake
+[7.143s] -- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/package.xml
+[7.145s] Invoked command in '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform

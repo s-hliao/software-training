@@ -1,0 +1,109 @@
+[0.000000] (-) TimerEvent: {}
+[0.000608] (coordinate_transform) JobQueued: {'identifier': 'coordinate_transform', 'dependencies': OrderedDict()}
+[0.000740] (coordinate_transform) JobStarted: {'identifier': 'coordinate_transform'}
+[0.010193] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'cmake'}
+[0.010597] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'build'}
+[0.011309] (coordinate_transform) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform', '--', '-j12', '-l12'], 'cwd': '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'henry'), ('SSH_AGENT_PID', '1700'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/henry/training_ws/install/peak_finder/lib:/home/henry/training_ws/install/obstacle_detector/lib:/home/henry/training_ws/install/mineral_deposit_tracking/lib:/home/henry/training_ws/install/localization/lib:/home/henry/training_ws/install/coordinate_transform/lib:/home/henry/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/henry'), ('OLDPWD', '/home/henry/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1506'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/henry/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'henry'), ('JOURNAL_STREAM', '8:48493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'henry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/henry-HP-ENVY-Laptop-15t-ep000:@/tmp/.ICE-unix/1743,unix/henry-HP-ENVY-Laptop-15t-ep000:/tmp/.ICE-unix/1743'), ('INVOCATION_ID', 'c1b0bc477ffc4b2289dfa24d64f78609'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7670761a_c7c0_4c37_9592_fbbf4e6c106a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[0.052366] (coordinate_transform) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target coordinate_transform_components\x1b[0m\n'}
+[0.066995] (coordinate_transform) StdoutLine: {'line': b'[ 50%] Built target coordinate_transform_node\n'}
+[0.081256] (coordinate_transform) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o\x1b[0m\n'}
+[0.100034] (-) TimerEvent: {}
+[0.200304] (-) TimerEvent: {}
+[0.300559] (-) TimerEvent: {}
+[0.400808] (-) TimerEvent: {}
+[0.501060] (-) TimerEvent: {}
+[0.601314] (-) TimerEvent: {}
+[0.701569] (-) TimerEvent: {}
+[0.801801] (-) TimerEvent: {}
+[0.902141] (-) TimerEvent: {}
+[1.002394] (-) TimerEvent: {}
+[1.102649] (-) TimerEvent: {}
+[1.202911] (-) TimerEvent: {}
+[1.303167] (-) TimerEvent: {}
+[1.403420] (-) TimerEvent: {}
+[1.503672] (-) TimerEvent: {}
+[1.603923] (-) TimerEvent: {}
+[1.704179] (-) TimerEvent: {}
+[1.804446] (-) TimerEvent: {}
+[1.904702] (-) TimerEvent: {}
+[2.004964] (-) TimerEvent: {}
+[2.105223] (-) TimerEvent: {}
+[2.205489] (-) TimerEvent: {}
+[2.305744] (-) TimerEvent: {}
+[2.406000] (-) TimerEvent: {}
+[2.506254] (-) TimerEvent: {}
+[2.606511] (-) TimerEvent: {}
+[2.706768] (-) TimerEvent: {}
+[2.807027] (-) TimerEvent: {}
+[2.907286] (-) TimerEvent: {}
+[3.007544] (-) TimerEvent: {}
+[3.107782] (-) TimerEvent: {}
+[3.208022] (-) TimerEvent: {}
+[3.308280] (-) TimerEvent: {}
+[3.408549] (-) TimerEvent: {}
+[3.508828] (-) TimerEvent: {}
+[3.609120] (-) TimerEvent: {}
+[3.709401] (-) TimerEvent: {}
+[3.809668] (-) TimerEvent: {}
+[3.909941] (-) TimerEvent: {}
+[4.010165] (-) TimerEvent: {}
+[4.110421] (-) TimerEvent: {}
+[4.210674] (-) TimerEvent: {}
+[4.310934] (-) TimerEvent: {}
+[4.411201] (-) TimerEvent: {}
+[4.511462] (-) TimerEvent: {}
+[4.611739] (-) TimerEvent: {}
+[4.712008] (-) TimerEvent: {}
+[4.812255] (-) TimerEvent: {}
+[4.912544] (-) TimerEvent: {}
+[5.012791] (-) TimerEvent: {}
+[5.113046] (-) TimerEvent: {}
+[5.213293] (-) TimerEvent: {}
+[5.313540] (-) TimerEvent: {}
+[5.413787] (-) TimerEvent: {}
+[5.514035] (-) TimerEvent: {}
+[5.614281] (-) TimerEvent: {}
+[5.714530] (-) TimerEvent: {}
+[5.814779] (-) TimerEvent: {}
+[5.915029] (-) TimerEvent: {}
+[6.015278] (-) TimerEvent: {}
+[6.115527] (-) TimerEvent: {}
+[6.215853] (-) TimerEvent: {}
+[6.316278] (-) TimerEvent: {}
+[6.416527] (-) TimerEvent: {}
+[6.516800] (-) TimerEvent: {}
+[6.617120] (-) TimerEvent: {}
+[6.717383] (-) TimerEvent: {}
+[6.817648] (-) TimerEvent: {}
+[6.835968] (coordinate_transform) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libcoordinate_transform_components.so\x1b[0m\n'}
+[6.917788] (-) TimerEvent: {}
+[7.018020] (-) TimerEvent: {}
+[7.083044] (coordinate_transform) StdoutLine: {'line': b'[100%] Built target coordinate_transform_components\n'}
+[7.092024] (coordinate_transform) CommandEnded: {'returncode': 0}
+[7.116594] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'install'}
+[7.118134] (-) TimerEvent: {}
+[7.128070] (coordinate_transform) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform'], 'cwd': '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'henry'), ('SSH_AGENT_PID', '1700'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/henry/training_ws/install/peak_finder/lib:/home/henry/training_ws/install/obstacle_detector/lib:/home/henry/training_ws/install/mineral_deposit_tracking/lib:/home/henry/training_ws/install/localization/lib:/home/henry/training_ws/install/coordinate_transform/lib:/home/henry/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/henry'), ('OLDPWD', '/home/henry/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1506'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/henry/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'henry'), ('JOURNAL_STREAM', '8:48493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'henry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/henry-HP-ENVY-Laptop-15t-ep000:@/tmp/.ICE-unix/1743,unix/henry-HP-ENVY-Laptop-15t-ep000:/tmp/.ICE-unix/1743'), ('INVOCATION_ID', 'c1b0bc477ffc4b2289dfa24d64f78609'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7670761a_c7c0_4c37_9592_fbbf4e6c106a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[7.136918] (coordinate_transform) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.137104] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node\n'}
+[7.137532] (coordinate_transform) StdoutLine: {'line': b'-- Set runtime path of "/home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node" to ""\n'}
+[7.137645] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/libcoordinate_transform_components.so\n'}
+[7.141147] (coordinate_transform) StdoutLine: {'line': b'-- Set runtime path of "/home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/libcoordinate_transform_components.so" to ""\n'}
+[7.141296] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/package_run_dependencies/coordinate_transform\n'}
+[7.141413] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/parent_prefix_path/coordinate_transform\n'}
+[7.141555] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.sh\n'}
+[7.141695] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.dsv\n'}
+[7.141928] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/path.sh\n'}
+[7.142099] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/path.dsv\n'}
+[7.142246] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.bash\n'}
+[7.142353] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.sh\n'}
+[7.142451] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.zsh\n'}
+[7.142546] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.dsv\n'}
+[7.142640] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/package.dsv\n'}
+[7.142808] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/packages/coordinate_transform\n'}
+[7.142981] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/rclcpp_components/coordinate_transform\n'}
+[7.143138] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig.cmake\n'}
+[7.143257] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig-version.cmake\n'}
+[7.143380] (coordinate_transform) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/package.xml\n'}
+[7.145139] (coordinate_transform) CommandEnded: {'returncode': 0}
+[7.186697] (coordinate_transform) JobEnded: {'identifier': 'coordinate_transform', 'rc': 0}
+[7.187362] (-) EventReactorShutdown: {}

@@ -1,0 +1,1 @@
+Invoking command in '/home/henry/training_ws/src/software-training/build/lqr_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/henry/training_ws/src/software-training/lqr_control -DCMAKE_INSTALL_PREFIX=/home/henry/training_ws/src/software-training/install/lqr_control

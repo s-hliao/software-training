@@ -1,0 +1,88 @@
+[0.000000] (-) TimerEvent: {}
+[0.000599] (coordinate_transform) JobQueued: {'identifier': 'coordinate_transform', 'dependencies': OrderedDict()}
+[0.000638] (coordinate_transform) JobStarted: {'identifier': 'coordinate_transform'}
+[0.009952] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'cmake'}
+[0.010557] (coordinate_transform) JobProgress: {'identifier': 'coordinate_transform', 'progress': 'build'}
+[0.011519] (coordinate_transform) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform', '--', '-j12', '-l12'], 'cwd': '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'henry'), ('SSH_AGENT_PID', '1700'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/henry/training_ws/install/peak_finder/lib:/home/henry/training_ws/install/obstacle_detector/lib:/home/henry/training_ws/install/mineral_deposit_tracking/lib:/home/henry/training_ws/install/localization/lib:/home/henry/training_ws/install/coordinate_transform/lib:/home/henry/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/henry'), ('OLDPWD', '/home/henry/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1506'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/henry/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'henry'), ('JOURNAL_STREAM', '8:48493'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'henry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/henry-HP-ENVY-Laptop-15t-ep000:@/tmp/.ICE-unix/1743,unix/henry-HP-ENVY-Laptop-15t-ep000:/tmp/.ICE-unix/1743'), ('INVOCATION_ID', 'c1b0bc477ffc4b2289dfa24d64f78609'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/7670761a_c7c0_4c37_9592_fbbf4e6c106a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[0.051709] (coordinate_transform) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target coordinate_transform_components\x1b[0m\n'}
+[0.066493] (coordinate_transform) StdoutLine: {'line': b'[ 50%] Built target coordinate_transform_node\n'}
+[0.080534] (coordinate_transform) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o\x1b[0m\n'}
+[0.100030] (-) TimerEvent: {}
+[0.200293] (-) TimerEvent: {}
+[0.300553] (-) TimerEvent: {}
+[0.400815] (-) TimerEvent: {}
+[0.501104] (-) TimerEvent: {}
+[0.601366] (-) TimerEvent: {}
+[0.701624] (-) TimerEvent: {}
+[0.801886] (-) TimerEvent: {}
+[0.902145] (-) TimerEvent: {}
+[1.002410] (-) TimerEvent: {}
+[1.102676] (-) TimerEvent: {}
+[1.202935] (-) TimerEvent: {}
+[1.303193] (-) TimerEvent: {}
+[1.403452] (-) TimerEvent: {}
+[1.503739] (-) TimerEvent: {}
+[1.603997] (-) TimerEvent: {}
+[1.704263] (-) TimerEvent: {}
+[1.804540] (-) TimerEvent: {}
+[1.904801] (-) TimerEvent: {}
+[1.921693] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:123:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knew_tag_array_msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.921865] (coordinate_transform) StderrLine: {'line': b'  123 |     \x1b[01;31m\x1b[Knew_tag_array_msg\x1b[m\x1b[K.header.stamp = tag_array_msg->header.stamp;\n'}
+[1.921940] (coordinate_transform) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.925387] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:125:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knew_tag_array_msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.925483] (coordinate_transform) StderrLine: {'line': b'  125 |     \x1b[01;31m\x1b[Knew_tag_array_msg\x1b[m\x1b[K.header.frame_id = "base_footprint";\n'}
+[1.925550] (coordinate_transform) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.928951] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:129:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knew_tag_array_msg\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.929070] (coordinate_transform) StderrLine: {'line': b'  129 |     \x1b[01;31m\x1b[Knew_tag_array_msg\x1b[m\x1b[K.tags = new_tags;\n'}
+[1.929137] (coordinate_transform) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.930678] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:133:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Ktag_pub_\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[1.930805] (coordinate_transform) StderrLine: {'line': b'  133 |     \x1b[01;31m\x1b[Ktag_pub_\x1b[m\x1b[K->publish(new_tag_array_msg);\n'}
+[1.930898] (coordinate_transform) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[1.952566] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid coordinate_transform::CoordinateTransformComponent::DetectionCallback(stsl_interfaces::msg::TagArray_<std::allocator<void> >::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[1.952716] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:82:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetTransformationMatrixForOpticalFrame\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.952791] (coordinate_transform) StderrLine: {'line': b'   82 |      \x1b[01;31m\x1b[KgetTransformationMatrixForOpticalFrame\x1b[m\x1b[K();\n'}
+[1.952857] (coordinate_transform) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.976845] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:104:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KquaternionMessageToTransformationMatrix\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.976986] (coordinate_transform) StderrLine: {'line': b'  104 |        \x1b[01;31m\x1b[KquaternionMessageToTransformationMatrix\x1b[m\x1b[K(\n'}
+[1.977057] (coordinate_transform) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.991343] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:111:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KtransformationMatrixToQuaternionMessage\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[1.991456] (coordinate_transform) StderrLine: {'line': b'  111 |        \x1b[01;31m\x1b[KtransformationMatrixToQuaternionMessage\x1b[m\x1b[K(tag_orientation);\n'}
+[1.991525] (coordinate_transform) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[1.991722] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:\x1b[m\x1b[K At global scope:\n'}
+[1.991801] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:136:19:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected initializer before \xe2\x80\x98\x1b[01m\x1b[KgetTransformationMatrixForOpticalFrame\x1b[m\x1b[K\xe2\x80\x99\n'}
+[1.991867] (coordinate_transform) StderrLine: {'line': b'  136 |   Eigen::Matrix4d \x1b[01;31m\x1b[KgetTransformationMatrixForOpticalFrame\x1b[m\x1b[K()\n'}
+[1.991938] (coordinate_transform) StderrLine: {'line': b'      |                   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.004896] (-) TimerEvent: {}
+[2.006124] (coordinate_transform) StderrLine: {'line': b'\x1b[01m\x1b[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:169:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected declaration before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[2.006229] (coordinate_transform) StderrLine: {'line': b'  169 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K  // namespace coordinate_transform\n'}
+[2.006298] (coordinate_transform) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[2.105018] (-) TimerEvent: {}
+[2.205304] (-) TimerEvent: {}
+[2.305726] (-) TimerEvent: {}
+[2.405987] (-) TimerEvent: {}
+[2.506279] (-) TimerEvent: {}
+[2.606555] (-) TimerEvent: {}
+[2.706813] (-) TimerEvent: {}
+[2.807071] (-) TimerEvent: {}
+[2.907330] (-) TimerEvent: {}
+[3.007590] (-) TimerEvent: {}
+[3.107845] (-) TimerEvent: {}
+[3.208103] (-) TimerEvent: {}
+[3.308362] (-) TimerEvent: {}
+[3.408626] (-) TimerEvent: {}
+[3.508910] (-) TimerEvent: {}
+[3.609203] (-) TimerEvent: {}
+[3.709503] (-) TimerEvent: {}
+[3.809778] (-) TimerEvent: {}
+[3.910038] (-) TimerEvent: {}
+[4.010331] (-) TimerEvent: {}
+[4.110607] (-) TimerEvent: {}
+[4.210892] (-) TimerEvent: {}
+[4.311202] (-) TimerEvent: {}
+[4.411480] (-) TimerEvent: {}
+[4.478658] (coordinate_transform) StderrLine: {'line': b'make[2]: *** [CMakeFiles/coordinate_transform_components.dir/build.make:63: CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o] Error 1\n'}
+[4.478863] (coordinate_transform) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/coordinate_transform_components.dir/all] Error 2\n'}
+[4.479113] (coordinate_transform) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[4.481599] (coordinate_transform) CommandEnded: {'returncode': 2}
+[4.510340] (coordinate_transform) JobEnded: {'identifier': 'coordinate_transform', 'rc': 2}
+[4.511154] (-) EventReactorShutdown: {}

@@ -1,0 +1,37 @@
+[0.014s] Invoking command in '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform -- -j12 -l12
+[0.054s] [35m[1mScanning dependencies of target coordinate_transform_components[0m
+[0.069s] [ 50%] Built target coordinate_transform_node
+[0.084s] [ 75%] [32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o[0m
+[1.941s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:122:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_tag_array_msg[m[K’ does not name a type
+[1.941s]   122 |     [01;31m[Knew_tag_array_msg[m[K.header.stamp = tag_array_msg->header.stamp;
+[1.941s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.945s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:124:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_tag_array_msg[m[K’ does not name a type
+[1.945s]   124 |     [01;31m[Knew_tag_array_msg[m[K.header.frame_id = "base_footprint";
+[1.945s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.949s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[Knew_tag_array_msg[m[K’ does not name a type
+[1.949s]   128 |     [01;31m[Knew_tag_array_msg[m[K.tags = new_tags;
+[1.949s]       |     [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.951s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:132:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ktag_pub_[m[K’ does not name a type
+[1.951s]   132 |     [01;31m[Ktag_pub_[m[K->publish(new_tag_array_msg);
+[1.951s]       |     [01;31m[K^~~~~~~~[m[K
+[1.973s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:[m[K In member function ‘[01m[Kvoid coordinate_transform::CoordinateTransformComponent::DetectionCallback(stsl_interfaces::msg::TagArray_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.973s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:81:64:[m[K [01;31m[Kerror: [m[K‘[01m[KgetTransformationMatrixForOpticalFrame[m[K’ was not declared in this scope
+[1.973s]    81 |     Eigen::Matrix4d camera_optical_to_conventional_transform = [01;31m[KgetTransformationMatrixForOpticalFrame[m[K();
+[1.973s]       |                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.997s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:103:8:[m[K [01;31m[Kerror: [m[K‘[01m[KquaternionMessageToTransformationMatrix[m[K’ was not declared in this scope
+[1.997s]   103 |        [01;31m[KquaternionMessageToTransformationMatrix[m[K(
+[1.998s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.012s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:110:8:[m[K [01;31m[Kerror: [m[K‘[01m[KtransformationMatrixToQuaternionMessage[m[K’ was not declared in this scope
+[2.012s]   110 |        [01;31m[KtransformationMatrixToQuaternionMessage[m[K(tag_orientation);
+[2.012s]       |        [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.012s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:[m[K At global scope:
+[2.013s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:135:19:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[KgetTransformationMatrixForOpticalFrame[m[K’
+[2.013s]   135 |   Eigen::Matrix4d [01;31m[KgetTransformationMatrixForOpticalFrame[m[K()
+[2.013s]       |                   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.027s] [01m[K/home/henry/training_ws/src/software-training/coordinate_transform/src/coordinate_transform_component.cpp:168:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+[2.027s]   168 | [01;31m[K}[m[K  // namespace coordinate_transform
+[2.027s]       | [01;31m[K^[m[K
+[4.542s] make[2]: *** [CMakeFiles/coordinate_transform_components.dir/build.make:63: CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o] Error 1
+[4.542s] make[1]: *** [CMakeFiles/Makefile2:134: CMakeFiles/coordinate_transform_components.dir/all] Error 2
+[4.542s] make: *** [Makefile:141: all] Error 2
+[4.544s] Invoked command in '/home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/coordinate_transform/build/coordinate_transform -- -j12 -l12

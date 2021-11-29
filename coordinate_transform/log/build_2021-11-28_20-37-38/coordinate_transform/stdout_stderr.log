@@ -1,0 +1,26 @@
+[35m[1mScanning dependencies of target coordinate_transform_components[0m
+[ 50%] Built target coordinate_transform_node
+[ 75%] [32mBuilding CXX object CMakeFiles/coordinate_transform_components.dir/src/coordinate_transform_component.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libcoordinate_transform_components.so[0m
+[100%] Built target coordinate_transform_components
+-- Install configuration: ""
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node
+-- Set runtime path of "/home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/coordinate_transform/coordinate_transform_node" to ""
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/libcoordinate_transform_components.so
+-- Set runtime path of "/home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/lib/libcoordinate_transform_components.so" to ""
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/package_run_dependencies/coordinate_transform
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/parent_prefix_path/coordinate_transform
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.sh
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/ament_prefix_path.dsv
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/path.sh
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/environment/path.dsv
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.bash
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.sh
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.zsh
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/local_setup.dsv
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/package.dsv
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/packages/coordinate_transform
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/ament_index/resource_index/rclcpp_components/coordinate_transform
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig.cmake
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/cmake/coordinate_transformConfig-version.cmake
+-- Installing: /home/henry/training_ws/src/software-training/coordinate_transform/install/coordinate_transform/share/coordinate_transform/package.xml

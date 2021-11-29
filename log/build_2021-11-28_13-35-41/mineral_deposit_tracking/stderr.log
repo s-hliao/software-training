@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /home/henry/training_ws/src/software-training/build/mineral_deposit_tracking/CMakeCache.txt is different than the directory /home/vagrant/training_ws/src/software-training/build/mineral_deposit_tracking where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/home/vagrant/training_ws/src/software-training/mineral_deposit_tracking" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+make: *** [Makefile:340: cmake_check_build_system] Error 1

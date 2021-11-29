@@ -1,0 +1,2 @@
+[0.048s] Invoking command in '/home/henry/training_ws/src/software-training/build/lqr_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/build/lqr_control -- -j12 -l12
+[0.147s] [100%] Built target lqr_control

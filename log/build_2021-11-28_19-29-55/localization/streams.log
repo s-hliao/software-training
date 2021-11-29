@@ -1,0 +1,12 @@
+[0.052s] Invoking command in '/home/henry/training_ws/src/software-training/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/build/localization -- -j12 -l12
+[0.131s] [35m[1mScanning dependencies of target localization_component[0m
+[0.132s] [35m[1mScanning dependencies of target localization_node[0m
+[0.200s] [ 14%] [32mBuilding CXX object CMakeFiles/localization_node.dir/rclcpp_components/node_main_localization_node.cpp.o[0m
+[0.222s] [ 28%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/motion_model.cpp.o[0m
+[0.223s] [ 42%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/random_helpers.cpp.o[0m
+[0.224s] [ 57%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/aruco_sensor_model.cpp.o[0m
+[0.225s] [ 71%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o[0m
+[2.656s] [ 85%] [32m[1mLinking CXX executable localization_node[0m
+[2.809s] [ 85%] Built target localization_node
+[7.329s] [100%] [32m[1mLinking CXX shared library liblocalization_component.so[0m
+[7.739s] [100%] Built target localization_component

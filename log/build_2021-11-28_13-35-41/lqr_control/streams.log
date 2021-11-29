@@ -1,0 +1,28 @@
+[0.043s] Invoking command in '/home/henry/training_ws/src/software-training/build/lqr_control': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /home/henry/training_ws/src/software-training/lqr_control -DCMAKE_INSTALL_PREFIX=/home/henry/training_ws/src/software-training/install/lqr_control
+[0.081s] -- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.088s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.248s] -- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+[0.278s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.281s] -- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.383s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.428s] -- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+[0.430s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.561s] -- Found rclcpp_action: 2.4.0 (/opt/ros/foxy/share/rclcpp_action/cmake)
+[0.628s] -- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+[0.679s] -- Found nav2_core: 0.4.7 (/opt/ros/foxy/share/nav2_core/cmake)
+[1.587s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[2.495s] -- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)
+[2.820s] -- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[2.885s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.886s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.886s] -- Configured cppcheck include dirs: 
+[2.886s] -- Configured cppcheck exclude dirs and/or files: 
+[2.886s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.887s] -- Configured cpplint exclude dirs and/or files: 
+[2.887s] -- Added test 'lint_cmake' to check CMake code style
+[2.888s] -- Added test 'uncrustify' to check C / C++ code style
+[2.888s] -- Configured uncrustify additional arguments: 
+[2.888s] -- Added test 'xmllint' to check XML markup files
+[2.891s] -- Configuring done
+[2.931s] -- Generating done
+[2.933s] -- Build files have been written to: /home/henry/training_ws/src/software-training/build/lqr_control

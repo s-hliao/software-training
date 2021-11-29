@@ -27,6 +27,8 @@
 #include <tf2_eigen/tf2_eigen.h>
 #include <string>
 // BEGIN STUDENT CODE
+#include <array>
+#include <vector>
 // END STUDENT CODE
 
 using namespace std::chrono_literals;
@@ -76,9 +78,42 @@ private:
     const Eigen::Matrix4d camera_to_base_transform = tf2::transformToEigen(tf_transform).matrix();
 
     // creates a matrix that goes from camera to standard ROS coordinates
-    Eigen::Matrix4d camera_optical_to_conventional_transform = getTransformationMatrixForOpticalFrame();
+    Eigen::Matrix4d camera_optical_to_conventional_transform =
+    	getTransformationMatrixForOpticalFrame();
 
     // BEGIN STUDENT CODE
+    std::vector<stsl_interfaces::msg::Tag> new_tags;
+    
+	for(const auto& old_tag: tag_array_msg -> tags){
+	    	stsl_interfaces::msg::Tag new_tag;
+	    	new_tag.id = tag_array_msg ->tags[i].id;
+	    	Eigen::Vector4d position(
+	    		old_tag.pose.position.x,
+	    		old_tag.pose.position.y,
+	    		old_tag.pose.position.z,
+	    		1);
+	    	
+	    	position = camera_to_base_transform * 
+		camera_optical_to_conventional_transform * position;
+		
+	    	new_tag.pose.position.x = position.x();
+	    	new_tag.pose.position.y = position.y();
+	    	new_tag.pose.position.z = position.z();
+	    	
+	    	Eigen::Matrix4d tag_orientation = 
+	    		quaternionMessageToTransformationMatrix(
+	    		old_tag.pose.orientation);
+	    	
+	    	tag_orientation = camera_to_base_transform * 
+	    		camera_optical_to_conventional_transform * tag_orientation;
+	    		
+	    	new_tag.pose.orientation = 
+	    		transformationMatrixToQuaternionMessage(tag_orientation);
+	    	
+	    	new_tags.push_back(new_tag);
+	};
+    	
+ 
     // END STUDENT CODE
 
     // create a new tag array message
@@ -90,6 +125,7 @@ private:
 
     // BEGIN STUDENT CODE
     // set message tags to new_tags vector
+    new_tag_array_msg.tags = new_tags;
     // END STUDENT CODE
 
     // publish new tag message
@@ -98,8 +134,19 @@ private:
 
   Eigen::Matrix4d getTransformationMatrixForOpticalFrame()
   {
-    // BEGIN STUDENT CODE
-    return {};
+    // BEGIN STUDENT CODE'
+    std::array<double, 16> R_roll_data = {1, 0, 0, 0, 
+    						0, 0, -1, 0, 
+    						0, 1, 0, 0,
+    						0, 0, 0, 1};
+    std::array<double, 16> R_yaw_data = {0, -1, 0, 0,
+    						1, 0, 0, 0,
+    						0, 0, 1, 0,
+    						0, 0, 0, 1};
+    Eigen::Matrix4d R_roll(R_roll_data.data());
+    Eigen::Matrix4d R_yaw(R_yaw_data.data());
+    
+    return R_yaw * R_roll;
     // END STUDENT CODE
   }
 
