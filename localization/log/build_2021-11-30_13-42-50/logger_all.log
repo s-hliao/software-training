@@ -1,0 +1,106 @@
+[0.257s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.257s] DEBUG:colcon:Parsed command line arguments: Namespace(ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fc58657b430>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=12, paths=None, symlink_install=False, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fc58657b430>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fc58657b970>)
+[0.261s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.262s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.262s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/henry/training_ws/src/software-training/localization'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.262s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.276s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'localization'
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.276s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_args' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target' from command line to 'None'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.294s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_cache' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_clean_first' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'cmake_force_configure' from command line to 'False'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'ament_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_cmake_args' from command line to 'None'
+[0.295s] Level 5:colcon.colcon_core.verb:set package 'localization' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.295s] DEBUG:colcon.colcon_core.verb:Building package 'localization' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/henry/training_ws/src/software-training/localization/build/localization', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/henry/training_ws/src/software-training/localization/install/localization', 'merge_install': False, 'path': '/home/henry/training_ws/src/software-training/localization', 'symlink_install': False, 'test_result_base': None}
+[0.295s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.297s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.297s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/henry/training_ws/src/software-training/localization' with build type 'ament_cmake'
+[0.297s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/henry/training_ws/src/software-training/localization'
+[0.300s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.301s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.301s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.303s] DEBUG:colcon.colcon_core.shell:Ignoring prefix path '/opt/ros/foxy'
+[0.312s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henry/training_ws/src/software-training/localization/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/localization/build/localization -- -j12 -l12
+[8.814s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henry/training_ws/src/software-training/localization/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/localization/build/localization -- -j12 -l12
+[8.852s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/henry/training_ws/src/software-training/localization/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/henry/training_ws/src/software-training/localization/build/localization
+[8.872s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[8.872s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/henry/training_ws/src/software-training/localization/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/henry/training_ws/src/software-training/localization/build/localization
+[8.875s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization' for CMake module files
+[8.876s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization' for CMake config files
+[8.876s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[8.876s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[8.877s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[8.877s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[8.878s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization/lib'
+[8.878s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'ld_library_path_lib')
+[8.879s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/ld_library_path_lib.ps1'
+[8.879s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/ld_library_path_lib.dsv'
+[8.880s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/ld_library_path_lib.sh'
+[8.880s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization/bin'
+[8.880s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization/lib/pkgconfig/localization.pc'
+[8.880s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization/lib/python3.8/site-packages'
+[8.881s] INFO:colcon.colcon_core.shell:Creating package script '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.ps1'
+[8.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.dsv'
+[8.882s] INFO:colcon.colcon_core.shell:Creating package script '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.sh'
+[8.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.bash'
+[8.883s] INFO:colcon.colcon_core.shell:Creating package script '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.zsh'
+[8.884s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henry/training_ws/src/software-training/localization/install/localization/share/colcon-core/packages/localization)
+[8.911s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(localization)
+[8.912s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization' for CMake module files
+[8.913s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization' for CMake config files
+[8.913s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'cmake_prefix_path')
+[8.913s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/cmake_prefix_path.ps1'
+[8.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/cmake_prefix_path.dsv'
+[8.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/cmake_prefix_path.sh'
+[8.915s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization/lib'
+[8.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('localization', 'ld_library_path_lib')
+[8.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/ld_library_path_lib.ps1'
+[8.916s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/ld_library_path_lib.dsv'
+[8.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/hook/ld_library_path_lib.sh'
+[8.916s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization/bin'
+[8.916s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization/lib/pkgconfig/localization.pc'
+[8.916s] Level 1:colcon.colcon_core.environment:checking '/home/henry/training_ws/src/software-training/localization/install/localization/lib/python3.8/site-packages'
+[8.917s] INFO:colcon.colcon_core.shell:Creating package script '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.ps1'
+[8.917s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.dsv'
+[8.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.sh'
+[8.918s] INFO:colcon.colcon_core.shell:Creating package script '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.bash'
+[8.919s] INFO:colcon.colcon_core.shell:Creating package script '/home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.zsh'
+[8.919s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/henry/training_ws/src/software-training/localization/install/localization/share/colcon-core/packages/localization)
+[8.919s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.920s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.920s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[8.920s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.926s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.926s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.926s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.938s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.939s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/henry/training_ws/src/software-training/localization/install/local_setup.ps1'
+[8.940s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/henry/training_ws/src/software-training/localization/install/_local_setup_util_ps1.py'
+[8.941s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/henry/training_ws/src/software-training/localization/install/setup.ps1'
+[8.943s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/henry/training_ws/src/software-training/localization/install/local_setup.sh'
+[8.943s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/henry/training_ws/src/software-training/localization/install/_local_setup_util_sh.py'
+[8.944s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/henry/training_ws/src/software-training/localization/install/setup.sh'
+[8.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/henry/training_ws/src/software-training/localization/install/local_setup.bash'
+[8.946s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/henry/training_ws/src/software-training/localization/install/setup.bash'
+[8.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/henry/training_ws/src/software-training/localization/install/local_setup.zsh'
+[8.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/henry/training_ws/src/software-training/localization/install/setup.zsh'

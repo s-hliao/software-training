@@ -1,0 +1,161 @@
+[0.000000] (-) TimerEvent: {}
+[0.000180] (localization) JobQueued: {'identifier': 'localization', 'dependencies': OrderedDict()}
+[0.000697] (localization) JobStarted: {'identifier': 'localization'}
+[0.011626] (localization) JobProgress: {'identifier': 'localization', 'progress': 'cmake'}
+[0.012817] (localization) JobProgress: {'identifier': 'localization', 'progress': 'build'}
+[0.013808] (localization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henry/training_ws/src/software-training/localization/build/localization', '--', '-j12', '-l12'], 'cwd': '/home/henry/training_ws/src/software-training/localization/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'henry'), ('SSH_AGENT_PID', '1921'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/henry/training_ws/install/peak_finder/lib:/home/henry/training_ws/install/obstacle_detector/lib:/home/henry/training_ws/install/mineral_deposit_tracking/lib:/home/henry/training_ws/install/localization/lib:/home/henry/training_ws/install/coordinate_transform/lib:/home/henry/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/henry'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1697'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee26a45f140b33aa3573024b61a60321'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/henry/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'henry'), ('JOURNAL_STREAM', '8:48587'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'henry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/henry-HP-ENVY-Laptop-15t-ep000:@/tmp/.ICE-unix/1956,unix/henry-HP-ENVY-Laptop-15t-ep000:/tmp/.ICE-unix/1956'), ('INVOCATION_ID', '96246f4df5e54b7ca48671baa4160c63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d894148_f9e4_4505_ab13_637ce8717b7b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.608'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/henry/training_ws/src/software-training/localization/build/localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee26a45f140b33aa3573024b61a60321'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[0.041574] (localization) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.063704] (localization) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099776] (-) TimerEvent: {}
+[0.200095] (-) TimerEvent: {}
+[0.236583] (localization) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.268172] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.271245] (localization) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300206] (-) TimerEvent: {}
+[0.378092] (localization) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.400322] (-) TimerEvent: {}
+[0.424028] (localization) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.425542] (localization) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500439] (-) TimerEvent: {}
+[0.558983] (localization) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[0.600551] (-) TimerEvent: {}
+[0.609847] (localization) StdoutLine: {'line': b'-- Found stsl_interfaces: 0.0.4 (/opt/ros/foxy/share/stsl_interfaces/cmake)\n'}
+[0.700669] (-) TimerEvent: {}
+[0.800942] (-) TimerEvent: {}
+[0.815164] (localization) StdoutLine: {'line': b'-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)\n'}
+[0.882743] (localization) StdoutLine: {'line': b'-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)\n'}
+[0.901020] (-) TimerEvent: {}
+[0.949415] (localization) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.001124] (-) TimerEvent: {}
+[1.015985] (localization) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.101208] (-) TimerEvent: {}
+[1.201493] (-) TimerEvent: {}
+[1.235134] (localization) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)\n'}
+[1.240889] (localization) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)\n'}
+[1.265438] (localization) StdoutLine: {'line': b'-- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)\n'}
+[1.270385] (localization) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.301566] (-) TimerEvent: {}
+[1.327835] (localization) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.335546] (localization) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.335764] (localization) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.335865] (localization) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.342959] (localization) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.343078] (localization) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.344147] (localization) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.346189] (localization) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.347349] (localization) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.354648] (localization) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.354776] (localization) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.355780] (localization) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.358142] (localization) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.375923] (localization) StdoutLine: {'line': b'-- Generating done\n'}
+[1.377951] (localization) StdoutLine: {'line': b'-- Build files have been written to: /home/henry/training_ws/src/software-training/localization/build/localization\n'}
+[1.401656] (-) TimerEvent: {}
+[1.403989] (localization) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target localization_component\x1b[0m\n'}
+[1.419308] (localization) StdoutLine: {'line': b'[ 25%] Built target localization_node\n'}
+[1.448718] (localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o\x1b[0m\n'}
+[1.448937] (localization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o\x1b[0m\n'}
+[1.501762] (-) TimerEvent: {}
+[1.602082] (-) TimerEvent: {}
+[1.702413] (-) TimerEvent: {}
+[1.802729] (-) TimerEvent: {}
+[1.903045] (-) TimerEvent: {}
+[2.003361] (-) TimerEvent: {}
+[2.103686] (-) TimerEvent: {}
+[2.204007] (-) TimerEvent: {}
+[2.304348] (-) TimerEvent: {}
+[2.404622] (-) TimerEvent: {}
+[2.504862] (-) TimerEvent: {}
+[2.605101] (-) TimerEvent: {}
+[2.705394] (-) TimerEvent: {}
+[2.805633] (-) TimerEvent: {}
+[2.905869] (-) TimerEvent: {}
+[3.006109] (-) TimerEvent: {}
+[3.106349] (-) TimerEvent: {}
+[3.206600] (-) TimerEvent: {}
+[3.306900] (-) TimerEvent: {}
+[3.407205] (-) TimerEvent: {}
+[3.507474] (-) TimerEvent: {}
+[3.607745] (-) TimerEvent: {}
+[3.708013] (-) TimerEvent: {}
+[3.808279] (-) TimerEvent: {}
+[3.908566] (-) TimerEvent: {}
+[4.008837] (-) TimerEvent: {}
+[4.109167] (-) TimerEvent: {}
+[4.209410] (-) TimerEvent: {}
+[4.309884] (-) TimerEvent: {}
+[4.410121] (-) TimerEvent: {}
+[4.510420] (-) TimerEvent: {}
+[4.610652] (-) TimerEvent: {}
+[4.710882] (-) TimerEvent: {}
+[4.811143] (-) TimerEvent: {}
+[4.911413] (-) TimerEvent: {}
+[5.011682] (-) TimerEvent: {}
+[5.111961] (-) TimerEvent: {}
+[5.212275] (-) TimerEvent: {}
+[5.312577] (-) TimerEvent: {}
+[5.412882] (-) TimerEvent: {}
+[5.513189] (-) TimerEvent: {}
+[5.613505] (-) TimerEvent: {}
+[5.713814] (-) TimerEvent: {}
+[5.814129] (-) TimerEvent: {}
+[5.914446] (-) TimerEvent: {}
+[6.014685] (-) TimerEvent: {}
+[6.115124] (-) TimerEvent: {}
+[6.215394] (-) TimerEvent: {}
+[6.315631] (-) TimerEvent: {}
+[6.415865] (-) TimerEvent: {}
+[6.516094] (-) TimerEvent: {}
+[6.616333] (-) TimerEvent: {}
+[6.716566] (-) TimerEvent: {}
+[6.816805] (-) TimerEvent: {}
+[6.917040] (-) TimerEvent: {}
+[7.017303] (-) TimerEvent: {}
+[7.117604] (-) TimerEvent: {}
+[7.217821] (-) TimerEvent: {}
+[7.318138] (-) TimerEvent: {}
+[7.418405] (-) TimerEvent: {}
+[7.518687] (-) TimerEvent: {}
+[7.618951] (-) TimerEvent: {}
+[7.719218] (-) TimerEvent: {}
+[7.819473] (-) TimerEvent: {}
+[7.919728] (-) TimerEvent: {}
+[7.995834] (localization) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking CXX shared library liblocalization_component.so\x1b[0m\n'}
+[8.019857] (-) TimerEvent: {}
+[8.120163] (-) TimerEvent: {}
+[8.220478] (-) TimerEvent: {}
+[8.320737] (-) TimerEvent: {}
+[8.420982] (-) TimerEvent: {}
+[8.507251] (localization) StdoutLine: {'line': b'[100%] Built target localization_component\n'}
+[8.517482] (localization) CommandEnded: {'returncode': 0}
+[8.521071] (-) TimerEvent: {}
+[8.544184] (localization) JobProgress: {'identifier': 'localization', 'progress': 'install'}
+[8.554945] (localization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/henry/training_ws/src/software-training/localization/build/localization'], 'cwd': '/home/henry/training_ws/src/software-training/localization/build/localization', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'henry'), ('SSH_AGENT_PID', '1921'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/henry/training_ws/install/peak_finder/lib:/home/henry/training_ws/install/obstacle_detector/lib:/home/henry/training_ws/install/mineral_deposit_tracking/lib:/home/henry/training_ws/install/localization/lib:/home/henry/training_ws/install/coordinate_transform/lib:/home/henry/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/henry'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1697'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee26a45f140b33aa3573024b61a60321'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/henry/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'henry'), ('JOURNAL_STREAM', '8:48587'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'henry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/henry-HP-ENVY-Laptop-15t-ep000:@/tmp/.ICE-unix/1956,unix/henry-HP-ENVY-Laptop-15t-ep000:/tmp/.ICE-unix/1956'), ('INVOCATION_ID', '96246f4df5e54b7ca48671baa4160c63'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/2d894148_f9e4_4505_ab13_637ce8717b7b'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.608'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/henry/training_ws/src/software-training/localization/build/localization'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee26a45f140b33aa3573024b61a60321'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[8.562462] (localization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.562731] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/lib/localization/localization_node\n'}
+[8.562917] (localization) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/lib/liblocalization_component.so\n'}
+[8.572310] (localization) StdoutLine: {'line': b'-- Set runtime path of "/home/henry/training_ws/src/software-training/localization/install/localization/lib/liblocalization_component.so" to ""\n'}
+[8.572505] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch\n'}
+[8.572624] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch/particle_filter_localizer.launch.py\n'}
+[8.572698] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config\n'}
+[8.572787] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config/localizer_params.yaml\n'}
+[8.572874] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/package_run_dependencies/localization\n'}
+[8.572956] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/parent_prefix_path/localization\n'}
+[8.573053] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.sh\n'}
+[8.573143] (localization) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.dsv\n'}
+[8.573226] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.sh\n'}
+[8.573297] (localization) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.dsv\n'}
+[8.573391] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.bash\n'}
+[8.573495] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.sh\n'}
+[8.573579] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.zsh\n'}
+[8.573649] (localization) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.dsv\n'}
+[8.573719] (localization) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.dsv\n'}
+[8.573788] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/packages/localization\n'}
+[8.573856] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/rclcpp_components/localization\n'}
+[8.573926] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig.cmake\n'}
+[8.573994] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig-version.cmake\n'}
+[8.574062] (localization) StdoutLine: {'line': b'-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.xml\n'}
+[8.575435] (localization) CommandEnded: {'returncode': 0}
+[8.621174] (-) TimerEvent: {}
+[8.622803] (localization) JobEnded: {'identifier': 'localization', 'rc': 0}
+[8.623407] (-) EventReactorShutdown: {}

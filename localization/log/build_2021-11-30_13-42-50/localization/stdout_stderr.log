@@ -1,0 +1,63 @@
+-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)
+-- Found stsl_interfaces: 0.0.4 (/opt/ros/foxy/share/stsl_interfaces/cmake)
+-- Found sensor_msgs: 2.0.4 (/opt/ros/foxy/share/sensor_msgs/cmake)
+-- Found visualization_msgs: 2.0.4 (/opt/ros/foxy/share/visualization_msgs/cmake)
+-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)
+-- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)
+-- Found tf2_geometry_msgs: 0.13.12 (/opt/ros/foxy/share/tf2_geometry_msgs/cmake)
+-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/foxy/share/eigen3_cmake_module/cmake)
+-- Found angles: 1.12.3 (/opt/ros/foxy/share/angles/cmake)
+-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/henry/training_ws/src/software-training/localization/build/localization
+[35m[1mScanning dependencies of target localization_component[0m
+[ 25%] Built target localization_node
+[ 50%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/particle_filter_localizer.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o[0m
+[ 62%] [32m[1mLinking CXX shared library liblocalization_component.so[0m
+[100%] Built target localization_component
+-- Install configuration: ""
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/lib/localization/localization_node
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/lib/liblocalization_component.so
+-- Set runtime path of "/home/henry/training_ws/src/software-training/localization/install/localization/lib/liblocalization_component.so" to ""
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch/particle_filter_localizer.launch.py
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config/localizer_params.yaml
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.sh
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.sh
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.dsv
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.bash
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.sh
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.zsh
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.dsv
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.dsv
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/packages/localization
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/rclcpp_components/localization
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig.cmake
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig-version.cmake
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.xml
