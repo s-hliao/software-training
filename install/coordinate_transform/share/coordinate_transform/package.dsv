@@ -1,0 +1,5 @@
+source;share/coordinate_transform/local_setup.bash
+source;share/coordinate_transform/local_setup.dsv
+source;share/coordinate_transform/local_setup.ps1
+source;share/coordinate_transform/local_setup.sh
+source;share/coordinate_transform/local_setup.zsh

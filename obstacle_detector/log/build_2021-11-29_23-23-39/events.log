@@ -1,0 +1,178 @@
+[0.000000] (-) TimerEvent: {}
+[0.000204] (obstacle_detector) JobQueued: {'identifier': 'obstacle_detector', 'dependencies': OrderedDict()}
+[0.000263] (obstacle_detector) JobStarted: {'identifier': 'obstacle_detector'}
+[0.012229] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'cmake'}
+[0.013127] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '/home/henry/training_ws/src/software-training/obstacle_detector', '-DCMAKE_INSTALL_PREFIX=/home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector'], 'cwd': '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'henry'), ('SSH_AGENT_PID', '1759'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/henry/training_ws/install/peak_finder/lib:/home/henry/training_ws/install/obstacle_detector/lib:/home/henry/training_ws/install/mineral_deposit_tracking/lib:/home/henry/training_ws/install/localization/lib:/home/henry/training_ws/install/coordinate_transform/lib:/home/henry/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/henry'), ('OLDPWD', '/home/henry/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1533'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14ee07df2dcc1eaa03d9398a61a59050'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/henry/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'henry'), ('JOURNAL_STREAM', '8:91953'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'henry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/henry-HP-ENVY-Laptop-15t-ep000:@/tmp/.ICE-unix/4673,unix/henry-HP-ENVY-Laptop-15t-ep000:/tmp/.ICE-unix/4673'), ('INVOCATION_ID', 'f8eae9ab101143b98b6f0537126a13e8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54b71103_deb9_4ac0_9ed1_b2ce4c251a76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14ee07df2dcc1eaa03d9398a61a59050'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[0.032572] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.9 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.055919] (obstacle_detector) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.056102] (obstacle_detector) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098866] (-) TimerEvent: {}
+[0.199153] (-) TimerEvent: {}
+[0.247369] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp: 2.4.0 (/opt/ros/foxy/share/rclcpp/cmake)\n'}
+[0.299245] (-) TimerEvent: {}
+[0.306216] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.314762] (obstacle_detector) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.385816] (obstacle_detector) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.399342] (-) TimerEvent: {}
+[0.411529] (obstacle_detector) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.499470] (-) TimerEvent: {}
+[0.504480] (obstacle_detector) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.567154] (obstacle_detector) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 1.0.3 (/opt/ros/foxy/share/rmw_implementation_cmake/cmake)\n'}
+[0.569561] (obstacle_detector) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.571072] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.599559] (-) TimerEvent: {}
+[0.639507] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.639730] (obstacle_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.699680] (-) TimerEvent: {}
+[0.709229] (obstacle_detector) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed\n'}
+[0.709632] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads\n'}
+[0.767282] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthreads - not found\n'}
+[0.767598] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread\n'}
+[0.799783] (-) TimerEvent: {}
+[0.834592] (obstacle_detector) StdoutLine: {'line': b'-- Looking for pthread_create in pthread - found\n'}
+[0.835929] (obstacle_detector) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.899896] (-) TimerEvent: {}
+[0.994727] (obstacle_detector) StdoutLine: {'line': b'-- Found rclcpp_components: 2.4.0 (/opt/ros/foxy/share/rclcpp_components/cmake)\n'}
+[0.999993] (-) TimerEvent: {}
+[1.058748] (obstacle_detector) StdoutLine: {'line': b'-- Found image_transport: 2.3.0 (/opt/ros/foxy/share/image_transport/cmake)\n'}
+[1.100095] (-) TimerEvent: {}
+[1.200346] (-) TimerEvent: {}
+[1.214232] (obstacle_detector) StdoutLine: {'line': b'-- Found cv_bridge: 2.2.1 (/opt/ros/foxy/share/cv_bridge/cmake)\n'}
+[1.234009] (obstacle_detector) StdoutLine: {'line': b'-- Found nav_msgs: 2.0.4 (/opt/ros/foxy/share/nav_msgs/cmake)\n'}
+[1.300467] (-) TimerEvent: {}
+[1.304983] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2_ros: 0.13.12 (/opt/ros/foxy/share/tf2_ros/cmake)\n'}
+[1.400581] (-) TimerEvent: {}
+[1.500847] (-) TimerEvent: {}
+[1.581170] (obstacle_detector) StdoutLine: {'line': b'-- Found tf2_eigen: 0.13.12 (/opt/ros/foxy/share/tf2_eigen/cmake)\n'}
+[1.594895] (obstacle_detector) StdoutLine: {'line': b'-- Found OpenCV: /usr (found suitable version "4.2.0", minimum required is "4") \n'}
+[1.600944] (-) TimerEvent: {}
+[1.623537] (obstacle_detector) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.698333] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.701025] (-) TimerEvent: {}
+[1.703055] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.703439] (obstacle_detector) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.703602] (obstacle_detector) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.707894] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.708082] (obstacle_detector) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.709230] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.710987] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.712286] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.717037] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.717214] (obstacle_detector) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.718484] (obstacle_detector) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.722181] (obstacle_detector) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.769338] (obstacle_detector) StdoutLine: {'line': b'-- Generating done\n'}
+[1.771636] (obstacle_detector) StdoutLine: {'line': b'-- Build files have been written to: /home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector\n'}
+[1.779545] (obstacle_detector) CommandEnded: {'returncode': 0}
+[1.782748] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'build'}
+[1.782861] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector', '--', '-j12', '-l12'], 'cwd': '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'henry'), ('SSH_AGENT_PID', '1759'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/henry/training_ws/install/peak_finder/lib:/home/henry/training_ws/install/obstacle_detector/lib:/home/henry/training_ws/install/mineral_deposit_tracking/lib:/home/henry/training_ws/install/localization/lib:/home/henry/training_ws/install/coordinate_transform/lib:/home/henry/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/henry'), ('OLDPWD', '/home/henry/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1533'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14ee07df2dcc1eaa03d9398a61a59050'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/henry/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'henry'), ('JOURNAL_STREAM', '8:91953'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'henry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/henry-HP-ENVY-Laptop-15t-ep000:@/tmp/.ICE-unix/4673,unix/henry-HP-ENVY-Laptop-15t-ep000:/tmp/.ICE-unix/4673'), ('INVOCATION_ID', 'f8eae9ab101143b98b6f0537126a13e8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54b71103_deb9_4ac0_9ed1_b2ce4c251a76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14ee07df2dcc1eaa03d9398a61a59050'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[1.801151] (-) TimerEvent: {}
+[1.820281] (obstacle_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle_detector_node\x1b[0m\n'}
+[1.820460] (obstacle_detector) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target obstacle_detector\x1b[0m\n'}
+[1.854407] (obstacle_detector) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_detector_node.dir/rclcpp_components/node_main_obstacle_detector_node.cpp.o\x1b[0m\n'}
+[1.901271] (-) TimerEvent: {}
+[1.912003] (obstacle_detector) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o\x1b[0m\n'}
+[1.912731] (obstacle_detector) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/obstacle_detector.cpp.o\x1b[0m\n'}
+[2.001412] (-) TimerEvent: {}
+[2.101840] (-) TimerEvent: {}
+[2.202237] (-) TimerEvent: {}
+[2.302641] (-) TimerEvent: {}
+[2.403033] (-) TimerEvent: {}
+[2.503439] (-) TimerEvent: {}
+[2.603839] (-) TimerEvent: {}
+[2.704246] (-) TimerEvent: {}
+[2.804646] (-) TimerEvent: {}
+[2.905058] (-) TimerEvent: {}
+[3.005462] (-) TimerEvent: {}
+[3.105859] (-) TimerEvent: {}
+[3.206262] (-) TimerEvent: {}
+[3.306667] (-) TimerEvent: {}
+[3.407046] (-) TimerEvent: {}
+[3.507446] (-) TimerEvent: {}
+[3.607795] (-) TimerEvent: {}
+[3.708138] (-) TimerEvent: {}
+[3.808502] (-) TimerEvent: {}
+[3.834210] (obstacle_detector) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable obstacle_detector_node\x1b[0m\n'}
+[3.908660] (-) TimerEvent: {}
+[3.959259] (obstacle_detector) StdoutLine: {'line': b'[ 80%] Built target obstacle_detector_node\n'}
+[4.008798] (-) TimerEvent: {}
+[4.109097] (-) TimerEvent: {}
+[4.209418] (-) TimerEvent: {}
+[4.309691] (-) TimerEvent: {}
+[4.410009] (-) TimerEvent: {}
+[4.510299] (-) TimerEvent: {}
+[4.610617] (-) TimerEvent: {}
+[4.710931] (-) TimerEvent: {}
+[4.811227] (-) TimerEvent: {}
+[4.911540] (-) TimerEvent: {}
+[5.011833] (-) TimerEvent: {}
+[5.112146] (-) TimerEvent: {}
+[5.212463] (-) TimerEvent: {}
+[5.312796] (-) TimerEvent: {}
+[5.413130] (-) TimerEvent: {}
+[5.513420] (-) TimerEvent: {}
+[5.613719] (-) TimerEvent: {}
+[5.714005] (-) TimerEvent: {}
+[5.814293] (-) TimerEvent: {}
+[5.914600] (-) TimerEvent: {}
+[6.014892] (-) TimerEvent: {}
+[6.115184] (-) TimerEvent: {}
+[6.215484] (-) TimerEvent: {}
+[6.315756] (-) TimerEvent: {}
+[6.416053] (-) TimerEvent: {}
+[6.516346] (-) TimerEvent: {}
+[6.616639] (-) TimerEvent: {}
+[6.716930] (-) TimerEvent: {}
+[6.817225] (-) TimerEvent: {}
+[6.917615] (-) TimerEvent: {}
+[7.017984] (-) TimerEvent: {}
+[7.118262] (-) TimerEvent: {}
+[7.218561] (-) TimerEvent: {}
+[7.318881] (-) TimerEvent: {}
+[7.419209] (-) TimerEvent: {}
+[7.519515] (-) TimerEvent: {}
+[7.619847] (-) TimerEvent: {}
+[7.720167] (-) TimerEvent: {}
+[7.820534] (-) TimerEvent: {}
+[7.920898] (-) TimerEvent: {}
+[8.021180] (-) TimerEvent: {}
+[8.121522] (-) TimerEvent: {}
+[8.221813] (-) TimerEvent: {}
+[8.322118] (-) TimerEvent: {}
+[8.373767] (obstacle_detector) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libobstacle_detector.so\x1b[0m\n'}
+[8.422297] (-) TimerEvent: {}
+[8.522881] (-) TimerEvent: {}
+[8.623196] (-) TimerEvent: {}
+[8.694291] (obstacle_detector) StdoutLine: {'line': b'[100%] Built target obstacle_detector\n'}
+[8.705161] (obstacle_detector) CommandEnded: {'returncode': 0}
+[8.723293] (-) TimerEvent: {}
+[8.728728] (obstacle_detector) JobProgress: {'identifier': 'obstacle_detector', 'progress': 'install'}
+[8.738424] (obstacle_detector) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector'], 'cwd': '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'henry'), ('SSH_AGENT_PID', '1759'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/henry/training_ws/install/peak_finder/lib:/home/henry/training_ws/install/obstacle_detector/lib:/home/henry/training_ws/install/mineral_deposit_tracking/lib:/home/henry/training_ws/install/localization/lib:/home/henry/training_ws/install/coordinate_transform/lib:/home/henry/training_ws/install/astar_path_planner/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/henry'), ('OLDPWD', '/home/henry/training_ws/src/software-training'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MANAGERPID', '1533'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('IM_CONFIG_CHECK_ENV', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14ee07df2dcc1eaa03d9398a61a59050'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/henry/training_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'henry'), ('JOURNAL_STREAM', '8:91953'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'henry'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '3'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('SESSION_MANAGER', 'local/henry-HP-ENVY-Laptop-15t-ep000:@/tmp/.ICE-unix/4673,unix/henry-HP-ENVY-Laptop-15t-ep000:/tmp/.ICE-unix/4673'), ('INVOCATION_ID', 'f8eae9ab101143b98b6f0537126a13e8'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/54b71103_deb9_4ac0_9ed1_b2ce4c251a76'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.180'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=14ee07df2dcc1eaa03d9398a61a59050'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('VTE_VERSION', '6003'), ('CMAKE_PREFIX_PATH', '/home/henry/training_ws/install/rj_training_bringup:/home/henry/training_ws/install/peak_finder:/home/henry/training_ws/install/obstacle_detector:/home/henry/training_ws/install/mineral_deposit_tracking:/home/henry/training_ws/install/localization:/home/henry/training_ws/install/coordinate_transform:/home/henry/training_ws/install/astar_path_planner:/opt/ros/foxy')]), 'shell': False}
+[8.746719] (obstacle_detector) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.747031] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node\n'}
+[8.747515] (obstacle_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node" to ""\n'}
+[8.747668] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector.so\n'}
+[8.749249] (obstacle_detector) StdoutLine: {'line': b'-- Set runtime path of "/home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector.so" to ""\n'}
+[8.749629] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/launch\n'}
+[8.749871] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py\n'}
+[8.749981] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/config\n'}
+[8.750062] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml\n'}
+[8.750213] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector\n'}
+[8.750403] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector\n'}
+[8.750604] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh\n'}
+[8.750765] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv\n'}
+[8.750932] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/path.sh\n'}
+[8.751074] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/path.dsv\n'}
+[8.751246] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.bash\n'}
+[8.751361] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.sh\n'}
+[8.751503] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.zsh\n'}
+[8.751660] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.dsv\n'}
+[8.751797] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.dsv\n'}
+[8.752036] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector\n'}
+[8.752284] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector\n'}
+[8.752541] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake\n'}
+[8.752670] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake\n'}
+[8.752856] (obstacle_detector) StdoutLine: {'line': b'-- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.xml\n'}
+[8.754545] (obstacle_detector) CommandEnded: {'returncode': 0}
+[8.806909] (obstacle_detector) JobEnded: {'identifier': 'obstacle_detector', 'rc': 0}
+[8.807775] (-) EventReactorShutdown: {}

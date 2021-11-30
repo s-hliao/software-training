@@ -1,0 +1,6 @@
+[0.065s] Invoking command in '/home/henry/training_ws/src/software-training/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/build/astar_path_planner -- -j12 -l12
+[0.118s] CMake Error: The current CMakeCache.txt directory /home/henry/training_ws/src/software-training/build/astar_path_planner/CMakeCache.txt is different than the directory /home/vagrant/training_ws/src/software-training/build/astar_path_planner where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.119s] CMake Error: The source directory "/home/vagrant/training_ws/src/software-training/astar_path_planner" does not exist.
+[0.120s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.121s] make: *** [Makefile:326: cmake_check_build_system] Error 1
+[0.130s] Invoked command in '/home/henry/training_ws/src/software-training/build/astar_path_planner' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/build/astar_path_planner -- -j12 -l12

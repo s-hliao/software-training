@@ -1,0 +1,33 @@
+[0.016s] Invoking command in '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector -- -j12 -l12
+[0.055s] [35m[1mScanning dependencies of target obstacle_detector[0m
+[0.071s] [ 40%] Built target obstacle_detector_node
+[0.087s] [ 60%] [32mBuilding CXX object CMakeFiles/obstacle_detector.dir/src/student_functions.cpp.o[0m
+[1.746s] [ 80%] [32m[1mLinking CXX shared library libobstacle_detector.so[0m
+[1.999s] [100%] Built target obstacle_detector
+[2.011s] Invoked command in '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector -- -j12 -l12
+[2.045s] Invoking command in '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector
+[2.053s] -- Install configuration: ""
+[2.053s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/lib/obstacle_detector/obstacle_detector_node
+[2.053s] -- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector.so
+[2.056s] -- Set runtime path of "/home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/lib/libobstacle_detector.so" to ""
+[2.056s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/launch
+[2.056s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/launch/obstacle_detector.launch.py
+[2.056s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/config
+[2.057s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/config/obstacle_detector_parameters.yaml
+[2.057s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/package_run_dependencies/obstacle_detector
+[2.057s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/parent_prefix_path/obstacle_detector
+[2.057s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.sh
+[2.057s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/ament_prefix_path.dsv
+[2.057s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/path.sh
+[2.057s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/environment/path.dsv
+[2.057s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.bash
+[2.057s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.sh
+[2.058s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.zsh
+[2.058s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/local_setup.dsv
+[2.058s] -- Installing: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.dsv
+[2.058s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/packages/obstacle_detector
+[2.058s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/ament_index/resource_index/rclcpp_components/obstacle_detector
+[2.058s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig.cmake
+[2.058s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/cmake/obstacle_detectorConfig-version.cmake
+[2.059s] -- Up-to-date: /home/henry/training_ws/src/software-training/obstacle_detector/install/obstacle_detector/share/obstacle_detector/package.xml
+[2.060s] Invoked command in '/home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/henry/training_ws/src/software-training/obstacle_detector/build/obstacle_detector

@@ -1,0 +1,6 @@
+[0.064s] Invoking command in '/home/henry/training_ws/src/software-training/build/peak_finder': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/build/peak_finder -- -j12 -l12
+[0.084s] CMake Error: The current CMakeCache.txt directory /home/henry/training_ws/src/software-training/build/peak_finder/CMakeCache.txt is different than the directory /home/vagrant/training_ws/src/software-training/build/peak_finder where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.092s] CMake Error: The source directory "/home/vagrant/training_ws/src/software-training/peak_finder" does not exist.
+[0.092s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.093s] make: *** [Makefile:340: cmake_check_build_system] Error 1
+[0.115s] Invoked command in '/home/henry/training_ws/src/software-training/build/peak_finder' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/build/peak_finder -- -j12 -l12
