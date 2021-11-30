@@ -1,0 +1,25 @@
+[ 25%] Built target localization_node
+[100%] Built target localization_component
+-- Install configuration: ""
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/lib/localization/localization_node
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/lib/liblocalization_component.so
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch/particle_filter_localizer.launch.py
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config/localizer_params.yaml
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.sh
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.sh
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.dsv
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.bash
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.sh
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.zsh
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.dsv
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.dsv
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/packages/localization
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/rclcpp_components/localization
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig.cmake
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig-version.cmake
+-- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.xml

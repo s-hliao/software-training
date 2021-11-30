@@ -1,0 +1,3 @@
+[35m[1mScanning dependencies of target localization_component[0m
+[ 25%] Built target localization_node
+[ 37%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o[0m

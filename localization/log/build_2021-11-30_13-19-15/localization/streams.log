@@ -1,0 +1,29 @@
+[0.013s] Invoking command in '/home/henry/training_ws/src/software-training/localization/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/localization/build/localization -- -j12 -l12
+[0.072s] [ 25%] Built target localization_node
+[0.080s] [100%] Built target localization_component
+[0.090s] Invoked command in '/home/henry/training_ws/src/software-training/localization/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /home/henry/training_ws/src/software-training/localization/build/localization -- -j12 -l12
+[0.129s] Invoking command in '/home/henry/training_ws/src/software-training/localization/build/localization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/henry/training_ws/src/software-training/localization/build/localization
+[0.137s] -- Install configuration: ""
+[0.138s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/lib/localization/localization_node
+[0.138s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/lib/liblocalization_component.so
+[0.138s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch
+[0.138s] -- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch/particle_filter_localizer.launch.py
+[0.138s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config
+[0.138s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config/localizer_params.yaml
+[0.138s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+[0.138s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.sh
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.dsv
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.sh
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.dsv
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.bash
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.sh
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.zsh
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.dsv
+[0.139s] -- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.dsv
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/packages/localization
+[0.139s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/rclcpp_components/localization
+[0.140s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig.cmake
+[0.140s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig-version.cmake
+[0.140s] -- Up-to-date: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.xml
+[0.142s] Invoked command in '/home/henry/training_ws/src/software-training/localization/build/localization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /home/henry/training_ws/src/software-training/localization/build/localization

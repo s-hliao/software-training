@@ -1,0 +1,12 @@
+[01m[K/home/henry/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:[m[K In constructor ‘[01m[Klocalization::OdometrySensorModel::OdometrySensorModel(rclcpp::Node&)[m[K’:
+[01m[K/home/henry/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:11:73:[m[K [01;31m[Kerror: [m[Kinvalid use of non-static member function ‘[01m[Kvoid localization::OdometrySensorModel::UpdateMeasurement(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’
+   11 |  rclcpp::SystemDefaultsQoS(), std::bind([01;31m[KOdometrySensorModel::UpdateMeasurement[m[K, this, std::placeholders::_1));
+      |                                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+
+In file included from [01m[K/home/henry/training_ws/src/software-training/localization/src/odometry_sensor_model.cpp:1[m[K:
+[01m[K/home/henry/training_ws/src/software-training/localization/src/odometry_sensor_model.hpp:17:10:[m[K [01;36m[Knote: [m[Kdeclared here
+   17 |     void [01;36m[KUpdateMeasurement[m[K(const nav_msgs::msg::Odometry::SharedPtr msg);
+      |          [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [CMakeFiles/localization_component.dir/build.make:115: CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:80: CMakeFiles/localization_component.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

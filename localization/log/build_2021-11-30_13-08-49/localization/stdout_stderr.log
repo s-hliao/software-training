@@ -1,0 +1,30 @@
+[35m[1mScanning dependencies of target localization_component[0m
+[ 25%] Built target localization_node
+[ 37%] [32mBuilding CXX object CMakeFiles/localization_component.dir/src/odometry_sensor_model.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library liblocalization_component.so[0m
+[100%] Built target localization_component
+-- Install configuration: ""
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/lib/localization/localization_node
+-- Set runtime path of "/home/henry/training_ws/src/software-training/localization/install/localization/lib/localization/localization_node" to ""
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/lib/liblocalization_component.so
+-- Set runtime path of "/home/henry/training_ws/src/software-training/localization/install/localization/lib/liblocalization_component.so" to ""
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/launch/particle_filter_localizer.launch.py
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/config/localizer_params.yaml
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/package_run_dependencies/localization
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/parent_prefix_path/localization
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.sh
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/ament_prefix_path.dsv
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.sh
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/environment/path.dsv
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.bash
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.sh
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.zsh
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/local_setup.dsv
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.dsv
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/packages/localization
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/ament_index/resource_index/rclcpp_components/localization
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig.cmake
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/cmake/localizationConfig-version.cmake
+-- Installing: /home/henry/training_ws/src/software-training/localization/install/localization/share/localization/package.xml
